@@ -28,6 +28,11 @@ namespace PartitioningData_SkipWhile_TakeWhile
 
             numbers.SkipWhile(i => i == 3).ShowInConsole();
             numbers.TakeWhile(i => i > 1).ShowInConsole();
+
+            int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7 };
+            numbers2.SkipWhile(n => n < 9).ShowInConsole();
+
+
         }
     }
 }
