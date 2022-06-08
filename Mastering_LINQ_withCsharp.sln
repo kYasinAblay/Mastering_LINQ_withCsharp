@@ -33,15 +33,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Join_GroupJoin", "Join_Grou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceEqual_NUnitComparisons", "SequenceEqual_NUnitComparisons\SequenceEqual_NUnitComparisons.csproj", "{9E2460EA-86D3-4C29-8C68-20FA8F66393C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{90B9762F-5CC0-445F-91F1-8F8F6A0C20A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{90B9762F-5CC0-445F-91F1-8F8F6A0C20A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcenationOperations_Concat", "ConcenationOperations_Concat\ConcenationOperations_Concat.csproj", "{F722B53A-8E9E-46C4-AE29-BACA89E7A4A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcenationOperations_Concat", "ConcenationOperations_Concat\ConcenationOperations_Concat.csproj", "{F722B53A-8E9E-46C4-AE29-BACA89E7A4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregationOperations", "AggregationOperations\AggregationOperations.csproj", "{B91744B0-FC84-4D6F-AC43-D8B3A3FB7DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregationOperations", "AggregationOperations\AggregationOperations.csproj", "{B91744B0-FC84-4D6F-AC43-D8B3A3FB7DF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQAndDatabase", "LINQAndDatabase", "{622132AD-57FA-45AD-931A-0FB57739F2DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMagicOfExpressionTrees", "TheMagicOfExpressionTrees\TheMagicOfExpressionTrees.csproj", "{E5816612-1039-41F4-A818-A4252B5F2146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheMagicOfExpressionTrees", "TheMagicOfExpressionTrees\TheMagicOfExpressionTrees.csproj", "{E5816612-1039-41F4-A818-A4252B5F2146}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtraTopics", "ExtraTopics", "{516FAB30-CB44-4DF5-94B9-7A595B06A56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoXML", "LINQtoXML\LINQtoXML.csproj", "{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQSupportinReSharper_Rider", "LINQSupportinReSharper_Rider\LINQSupportinReSharper_Rider.csproj", "{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreLINQApp", "MoreLINQ\MoreLINQApp.csproj", "{DA0EDD96-4180-4424-AECC-B5E00ADD1D13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParalelLINQ", "ParalelLINQ", "{CBCB78F0-3923-424B-A66C-C9B69432E520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsPararlelAndParalelQuery", "AsPararlelAndParalelQuery\AsPararlelAndParalelQuery.csproj", "{85457ED9-E052-4662-A239-78AF5E7E9CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +129,22 @@ Global
 		{E5816612-1039-41F4-A818-A4252B5F2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5816612-1039-41F4-A818-A4252B5F2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5816612-1039-41F4-A818-A4252B5F2146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0EDD96-4180-4424-AECC-B5E00ADD1D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0EDD96-4180-4424-AECC-B5E00ADD1D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0EDD96-4180-4424-AECC-B5E00ADD1D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0EDD96-4180-4424-AECC-B5E00ADD1D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85457ED9-E052-4662-A239-78AF5E7E9CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85457ED9-E052-4662-A239-78AF5E7E9CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85457ED9-E052-4662-A239-78AF5E7E9CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85457ED9-E052-4662-A239-78AF5E7E9CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +167,10 @@ Global
 		{F722B53A-8E9E-46C4-AE29-BACA89E7A4A2} = {C9CAE71E-0576-49B0-8B33-0788152F4594}
 		{B91744B0-FC84-4D6F-AC43-D8B3A3FB7DF0} = {C9CAE71E-0576-49B0-8B33-0788152F4594}
 		{E5816612-1039-41F4-A818-A4252B5F2146} = {622132AD-57FA-45AD-931A-0FB57739F2DB}
+		{65D4EFF8-F6F2-4B24-9E1D-88D3B23D075A} = {516FAB30-CB44-4DF5-94B9-7A595B06A56E}
+		{5E442734-6DF1-46E2-9FD9-53E8BBBECC7C} = {516FAB30-CB44-4DF5-94B9-7A595B06A56E}
+		{DA0EDD96-4180-4424-AECC-B5E00ADD1D13} = {516FAB30-CB44-4DF5-94B9-7A595B06A56E}
+		{85457ED9-E052-4662-A239-78AF5E7E9CE1} = {CBCB78F0-3923-424B-A66C-C9B69432E520}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45801303-AC51-4D41-B8A2-1FB61BC52C7D}
