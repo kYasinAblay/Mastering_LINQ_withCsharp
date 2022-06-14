@@ -21,12 +21,13 @@ namespace AsPararlelAndParalelQuery
             Console.WriteLine();
             Console.WriteLine();
 
-            foreach (var i in results)
-                Console.WriteLine($"{i}\t");
-            Console.WriteLine();
+            //foreach (var i in results)
+            //    Console.WriteLine($"{i}\t");
+            //Console.WriteLine();
 
             var cubes = items.AsParallel().AsOrdered().Select(x => x * x * x);
 
+            var arr = cubes.ToArray();//add to after end of lecture
             foreach (var i in cubes)
                 Console.Write($"{i}\t"); //or Line
             Console.WriteLine();
